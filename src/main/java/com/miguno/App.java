@@ -26,6 +26,7 @@ public class App {
     startServer();
     System.out.println(String.format("Jersey app started with WADL available at %sapplication.wadl", BASE_URI));
     System.out.println(String.format("Endpoint is available at %sstatus", BASE_URI));
+    System.out.println("extra line");
   }
 }
 
